@@ -1,6 +1,6 @@
-## Practica-2.1-Rafael-Moncayo-Palate
+# Practica-2.1-Rafael-Moncayo-Palate
 
-# Codi de la pràctica
+## Codi de la pràctica
 ```cpp
 #include <Arduino.h>
  
@@ -44,7 +44,7 @@ void loop()
 }
 ```
 
-# Explicació de la pràctica
+## Explicació de la pràctica
 
 En aquesta pràctica ajuda per entendre que són les interrupcions, en aquest cas: per GPIO (General Porpouse InPut/OutPut).
 Aquí primer creem un struct que serà el que ens crei una tupla per declarar un botó, amb pin d'entrada, un comptador de vegedas que ses pitja el botó i un boleà que ens ajudarà a declarar el seu estat (pressed(true)/not pressed(false)). Amb el VOID IRAM_ATTR lo que es crea és una espècie de handler per les interrupcions que fa que l'estat sigui pressed (true) i el contador augmenti +1. 
